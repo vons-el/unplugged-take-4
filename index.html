@@ -19,43 +19,57 @@
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
+  /* Google web fonts */
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
 <header>
-  <div class="content-wrapper">
-    <a href="#">
-      <img src=""  alt= "Unplugged Logo">
-    </a>
+  <div class="content-wrapper">    
+    <figure>
+      <a href="#">
+        <img src="img/unpluggedlogo.png"  alt= "Unplugged Logo">
+      </a>
+    </figure>
+    
     <div class="header-divider"></div>
-    <nav>
-      <ul>
-        <li><a href="faq/index.html">FAQ</a></li>
-         <li><a href="about/index.html">About</a></li>
-      </ul>
-    </nav>
+      <nav>
+        <ul>
+          <li><a href="faq/index.html">FAQ</a></li>
+          <li><a href="about/index.html">About</a></li>
+        </ul>    
+      </nav>  
+    </div>
+
   </div>
 </header>
 
 <main>
   <section class="hero-area">
     <div class="content-wrapper">
-      <h1>Retreat from the desk, return refreshed</h1>
+      <h1>Retreat from the desk, return refreshed.</h1>
     </div>
   </section>
+  
   <aside>
     <div class="content-wrapper">
+      
       <div class="form-description">
         <h3>Want to join the next retreat?</h3>
-        <p></p>
+        <p>Find out when we are holding our next retreat and how your company or team can sign up!</p>
       </div>
+      
       <div class="form">
         <h3>Find out more</h3>
         <input type="text" name="name" value="name@email.com">
-        <input type="button" value="Download Itinerary">
+        <input type="button" value="Download Itinerary">      
       </div>
+
     </div>
   </aside>
+
   <section class="features">
     <div class="content-wrapper">
       <h2>Have the work week you always dreamed of — without the bad wifi.</h2>
@@ -93,11 +107,18 @@
     <div class="content-wrapper">
       <h2> Be a better team in 5 days, like this one.</h2>
     <article>
+      <div>
+      <figure>
+        <img src="img/unplugged-retreat-lacrue.jpg" alt="Unplugged retreat group photo">
+      </figure>
+      </div>
+      <div>
       <h3>LaCrue Bottling Co. <br>
 October 2018</h3>
         <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
         </p>
+      </div>
     </article>
     </div>
   </section>
@@ -127,11 +148,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
       </div>
     </div>
   </div>
+</div>
   <div class="copyright">
       <p>Copyright 2026 | Unplugged</p>
       </div>
-</div>
-
 </footer>
 
   <script src="js/app.js"></script>
