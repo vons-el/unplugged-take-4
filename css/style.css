@@ -655,6 +655,9 @@ footer .copyright {
   font-size: .9em;
   width: 45%;
 }
+.map figure {
+  padding-bottom: 75%;
+}
 
 .contact-section .content-wrapper h2 {
   width: 80%;
@@ -763,6 +766,10 @@ aside .form {
 .mission h2 {
   font-size: 3em;
 }
+.map figure {
+  padding-bottom: 45%;
+}
+
 /*====================FAQ Page=============*/
 .faq h1 {
   width: 100%;
