@@ -303,12 +303,19 @@ input[type=button] {
   width: 70%;
   margin: 30px 0;
 }
+
 .features .features-items {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
   margin: 0;
+}
+
+.features h3 {
+  text-align: center;
+  font-size: 3.75rem;
+  margin-bottom: 40px;
 }
 
 .features p {
