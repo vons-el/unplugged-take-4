@@ -205,23 +205,32 @@ footer .content-wrapper {
   width: 55%;
 }
 footer p {
-  margin: 0;
+  margin: 15px;
 }
 footer .contact {
   margin-bottom: 50px;
 }
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  color: #527158;
 }
 
 footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  /*width: 40px;
+  height: 40px;*/
+  font-size: 1.3125em;
+  border-radius: 100%;
+  padding: .7rem;
 }
+/*footer .social-icons p i {
+  font-size: 1.3125em;
+  margin: 0 10px;
+}*/
 
 footer .copyright p{
   width: 100%;
@@ -296,11 +305,13 @@ input[type=button] {
 
 .features h2 {
   margin-bottom: 60px; 
-  width: 85%;
+  margin-left: 10px;
+  width: 90%;
+  font-size: 1.6rem;
 }
 
 .features article {
-  width: 70%;
+  width: 63%;
   margin: 30px 0;
 }
 
@@ -333,6 +344,7 @@ input[type=button] {
 .reviews h2 {
   margin-bottom: 40px;
   line-height: 1em;
+  font-size: 1.85rem;
 }
 
 .reviews h3 {
@@ -363,7 +375,7 @@ input[type=button] {
   font-family: 'Poppins', sans-serif;
   font-size: 1.8em;
   font-weight: 500;
-  line-height: 2.0em;
+  line-height: 1.5em;
 }
 
 .map figure {
@@ -381,7 +393,10 @@ input[type=button] {
   top: 0;
   left: 0;
 }
-contact-content p{
+.contact-section h2 {
+  font-size: 1.85rem;
+}
+.contact-content p{
   margin: 0px;
 }
 
@@ -402,20 +417,22 @@ contact-content p{
 }
 .faq h1 {
   /* font-family: 'Poppins', sans-serif;
-  font-size: 1.8755em;
+  
   font-weight: 500;*/
   margin-bottom: 40px;
-  line-height: 1;
+  line-height: 2.0rem;
+  font-size: 2.0rem;
 }
 
-/*.faq h2 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.125em;
+.faq h2 {
+  /*font-family: 'Poppins', sans-serif;
+ 
   margin: 20px 0;
   font-weight: 500;
   margin: 40px 0;
-} */
-
+ */
+  font-size: 1.125em;
+}
 .faq-content {
   margin-bottom: 50px;
 }
@@ -595,11 +612,19 @@ flex-flow: column wrap;
 flex-basis: 50%;
 }
 .features .features-item-description {
-  width: 62%;
+  width: 65%;
+}
+
+.features p {
+  font-size: 1rem;
 }
 
 .features h2 {
   width: 100%;
+  font-size: 2.25rem;
+}
+.features h3 {
+  margin-bottom: 20px;
 }
 
 /*------------Reviews----------*/
@@ -668,6 +693,9 @@ footer .copyright {
 
 .contact-section .content-wrapper h2 {
   width: 80%;
+}
+.contact-section h2 {
+  font-size: 2.25rem;
 }
 .contact-content {
   display: flex;
