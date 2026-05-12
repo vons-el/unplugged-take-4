@@ -221,16 +221,17 @@ footer .social-icons p {
   justify-content: center;
   align-items: center;
   background-color: #527158;
-  /*width: 40px;
-  height: 40px;*/
+  width: 40px;
+  height: 40px;
   font-size: 1.3125em;
   border-radius: 100%;
   padding: .7rem;
 }
-/*footer .social-icons p i {
+
+footer .social-icons  i {
   font-size: 1.3125em;
-  margin: 0 10px;
-}*/
+
+}
 
 footer .copyright p{
   width: 100%;
